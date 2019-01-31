@@ -72,9 +72,8 @@ PRODUCT_PACKAGES += \
     com.dsi.ant.antradio_library \
     libantradio
 
-# Offline Charger
-PRODUCT_PACKAGES += \
-    charger_res_images
+# Charger
+include $(LOCAL_PATH)/rootdir/charger/charger.mk
 
 # Audio
 PRODUCT_PACKAGES += \
