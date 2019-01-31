@@ -21,5 +21,4 @@
 /devices/soc/78db000.usb/msm_hsusb_host*     /storage/usbotg    vfat    nosuid,nodev         wait,voldmanaged=usbotg:auto
 
 # Zram
-/dev/block/zram0                             none               swap    defaults                                            zramsize=1536870912,max_comp_streams=4
-
+/dev/block/zram0                             none               swap    defaults                                            zramsize=1036870912,max_comp_streams=4
